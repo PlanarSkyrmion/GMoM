@@ -14,7 +14,7 @@
  */
 
 @import url('https://fonts.googleapis.com/css?family=Roboto%7CRoboto+Slab');
-@import url('./timeline.css');
+@import url('timeline.css');
 
 *{
     border:0;
@@ -108,7 +108,7 @@ table.plenary{padding-top: 8px; background: #ffffff;}
 
 /* smaller participants table */
 table.participants{
-    width:600px;  
+    width:600px;
     border-collapse: collapse;
     border: 1px solid rgba(0,0,0,1.0);
     tr:nth-child(odd) {
